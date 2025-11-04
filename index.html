@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CIYA STORE • Aplikasi Digital Premium</title>
+  <meta name="description" content="Toko aplikasi digital premium: Netflix, Spotify, YouTube Premium, Disney+, Canva Pro, CapCut, ChatGPT Plus, dan lainnya. Pengiriman otomatis, harga hemat." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=1.0">
+</head>
+<body>
+  <!-- Top Announcement -->
+  <div class="topbar">
+    <div class="container">
+      🎉 Promo 2025-11-04: Diskon s/d 20% untuk layanan terpilih. Gunakan kode <b>CIYA20</b> saat checkout!
+    </div>
+  </div>
+
+  <!-- Header / Navbar -->
+  <header class="header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">CIYA<span>STORE</span></div>
+        <small class="tagline">Aplikasi Digital Premium</small>
+      </div>
+      <nav class="nav">
+        <a href="#produk">Produk</a>
+        <a href="#kategori">Kategori</a>
+        <a href="#keunggulan">Keunggulan</a>
+        <a href="#faq">FAQ</a>
+        <a href="#kontak" class="btn btn-ghost">Hubungi</a>
+        <button id="themeToggle" class="btn btn-ghost" aria-label="Toggle tema">🌓</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero / Banner -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <h1>Langganan Premium, <span class="grad">Harga Rakyat</span>.</h1>
+        <p>Dapatkan akses resmi Netflix, Spotify, YouTube Premium, Disney+, Canva Pro, CapCut, ChatGPT Plus, dan banyak lagi. Instan & aman, cocok untuk kebutuhan personal maupun bisnis.</p>
+        <div class="actions">
+          <a href="#produk" class="btn btn-primary">Lihat Produk</a>
+          <a href="#keunggulan" class="btn btn-ghost">Mengapa kami?</a>
+        </div>
+        <div class="trust">
+          <div>⚡ Pengiriman Otomatis</div>
+          <div>🛡️ Garansi Aktif</div>
+          <div>💬 Support Cepat</div>
+        </div>
+      </div>
+
+      <!-- Placeholder Banner: user will replace -->
+      <div class="hero-banner" aria-label="Banner area">
+        <div class="banner-placeholder">
+          <div>Area Banner</div>
+          <small>Upload gambar banner Anda di sini (1200x500+)</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Category Pills & Search -->
+  <section id="kategori" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Kategori</h2>
+        <div class="filters">
+          <input id="searchInput" type="search" placeholder="Cari layanan… (cth: Netflix, Canva)" aria-label="Cari produk" />
+          <div class="pills" role="tablist">
+            <button class="pill active" data-cat="all">Semua</button>
+            <button class="pill" data-cat="Streaming">Streaming</button>
+            <button class="pill" data-cat="Musik">Musik</button>
+            <button class="pill" data-cat="AI">AI</button>
+            <button class="pill" data-cat="Tools">Tools</button>
+            <button class="pill" data-cat="Gaming">Gaming</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Grid -->
+  <section id="produk" class="section">
+    <div class="container">
+      <div id="productGrid" class="grid"></div>
+    </div>
+  </section>
+
+  <!-- Keunggulan -->
+  <section id="keunggulan" class="section alt">
+    <div class="container">
+      <h2>Mengapa Memilih Kami</h2>
+      <div class="grid features">
+        <article class="feature">
+          <div class="icon">⚡</div>
+          <h3>Instan & Otomatis</h3>
+          <p>Pesanan diproses otomatis. Minim ribet, anti nunggu lama.</p>
+        </article>
+        <article class="feature">
+          <div class="icon">🛡️</div>
+          <h3>Garansi Aktif</h3>
+          <p>Akun resmi sesuai deskripsi. Garansi sesuai masa berlaku.</p>
+        </article>
+        <article class="feature">
+          <div class="icon">💳</div>
+          <h3>Metode Bayar Lengkap</h3>
+          <p>Transfer Bank, E-Wallet, dan QRIS. Aman & terpercaya.</p>
+        </article>
+        <article class="feature">
+          <div class="icon">💬</div>
+          <h3>Support Responsif</h3>
+          <p>Tim siap bantu via Telegram/WhatsApp setiap hari.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section">
+    <div class="container">
+      <h2>FAQ</h2>
+      <div class="faq">
+        <details>
+          <summary>Apa itu CIYA STORE?</summary>
+          <p>CIYA STORE adalah toko digital terpercaya yang menyediakan berbagai layanan premium populer dengan harga terjangkau dan sistem pengiriman otomatis.</p>
+        </details>
+        <details>
+          <summary>Apakah akun premium resmi dan aman digunakan?</summary>
+          <p>Ya. Semua layanan yang kami jual adalah akun premium legal sesuai deskripsi. Kami menjamin akses aktif sesuai masa berlaku yang dipilih.</p>
+        </details>
+        <details>
+          <summary>Metode pembayaran apa saja yang tersedia?</summary>
+          <p>Kami mendukung transfer bank, e-wallet, dan QRIS. Untuk instruksi pembayaran, silakan ikuti langkah saat checkout atau hubungi kami.</p>
+        </details>
+        <details>
+          <summary>Berapa lama proses setelah pembayaran?</summary>
+          <p>Instan! Sistem kami otomatis memproses pesanan. Jika ada kendala, tim support akan membantu secepatnya.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="cta">
+    <div class="container cta-inner">
+      <div>
+        <h2>Siap mulai langganan premium?</h2>
+        <p>Dapatkan harga terbaik & dukungan cepat dari kami.</p>
+      </div>
+      <a href="https://t.me/username" class="btn btn-primary">Chat via Telegram</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="kontak" class="footer">
+    <div class="container footer-inner">
+      <div class="col">
+        <div class="logo">CIYA<span>STORE</span></div>
+        <p class="muted">© 2025-11-04 CIYA STORE • All rights reserved.</p>
+      </div>
+      <div class="col">
+        <h4>Navigasi</h4>
+        <ul>
+          <li><a href="#produk">Produk</a></li>
+          <li><a href="#keunggulan">Keunggulan</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h4>Kontak</h4>
+        <ul>
+          <li>Telegram: @thanksgod01</li>
+          <li>Email: support@ciyastore.biz.id</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    window.PRODUCTS = [
+      { id: "netflix-1b", title: "Netflix Premium 1 Bulan", price: 45000, category: "Streaming", badge: "Best Seller", desc: "Akun resmi, 1 bulan. Resolusi hingga 4K (sesuai paket).", cta: "Beli via Telegram" },
+      { id: "spotify-1b", title: "Spotify Premium 1 Bulan", price: 19000, category: "Musik", badge: "Favorit", desc: "Nikmati musik tanpa iklan, kualitas tinggi, offline.", cta: "Beli via Telegram" },
+      { id: "youtubep-1b", title: "YouTube Premium 1 Bulan", price: 29000, category: "Streaming", badge: "Hot", desc: "Tanpa iklan + YouTube Music. Tonton tanpa gangguan.", cta: "Beli via Telegram" },
+      { id: "disney-1b", title: "Disney+ 1 Bulan", price: 30000, category: "Streaming", badge: "", desc: "Akses film & seri eksklusif Disney, Pixar, Marvel, Star Wars.", cta: "Beli via Telegram" },
+      { id: "canva-1b", title: "Canva Pro 1 Bulan", price: 25000, category: "Tools", badge: "Laris", desc: "Semua fitur Pro untuk desain profesional & brand kit.", cta: "Beli via Telegram" },
+      { id: "capcut-1b", title: "CapCut Pro 1 Bulan", price: 20000, category: "Tools", badge: "", desc: "Editing video premium di HP/PC, tanpa watermark.", cta: "Beli via Telegram" },
+      { id: "chatgpt-1b", title: "ChatGPT Plus 1 Bulan", price: 120000, category: "AI", badge: "Limited", desc: "Akses model terbaru & antrean cepat untuk produktivitas.", cta: "Beli via Telegram" },
+      { id: "hbo-1b", title: "HBO GO 1 Bulan", price: 35000, category: "Streaming", badge: "", desc: "Tonton serial & film berkualitas dari HBO.", cta: "Beli via Telegram" },
+      { id: "applemusic-1b", title: "Apple Music 1 Bulan", price: 29000, category: "Musik", badge: "", desc: "60+ juta lagu, lossless & Spatial Audio (device support).", cta: "Beli via Telegram" },
+      { id: "xboxgp-1b", title: "Xbox Game Pass 1 Bulan", price: 79000, category: "Gaming", badge: "", desc: "Ratusan game untuk konsol/PC, update setiap bulan.", cta: "Beli via Telegram" }
+    ];
+  </script>
+  <script src="app.js?v=1.0"></script>
+</body>
+</html>
